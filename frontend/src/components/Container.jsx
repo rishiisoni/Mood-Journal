@@ -13,10 +13,14 @@ export default function Container() {
     ];
 
     const [entries, setEntries] = useState([]);
+    const [location, setLocation] = useState("");
 
     return (
         <div className="container">
-            <CalenderSection moodOptions={moodOptions} setEntries={setEntries} />
+            <div className="header">
+                MoodMate
+            </div>
+            <CalenderSection moodOptions={moodOptions} entries={entries} setEntries={setEntries} setLocation={setLocation}/>
             <NotesSection entries={entries}/>
         </div>
     );

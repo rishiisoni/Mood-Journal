@@ -85,33 +85,13 @@
 .calender-part-2 .navigate-date {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     column-gap: 1rem;
     margin: 10px 0;
 }
 
 .navigate-date h2 {
     font-size: 20px;
-}
-
-;
-
-.calender-part-2 .navigate-date .buttons {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-}
-
-.buttons i {
-    height: 1.5rem;
-    width: 1.5rem;
-    background-color: #cbdaee;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-    color: black;
-    cursor: pointer;
 }
 
 .weekdays {

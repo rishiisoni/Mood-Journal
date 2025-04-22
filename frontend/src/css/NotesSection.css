@@ -13,10 +13,16 @@
 }
 
 .notes-section .all-notes {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3vw;
 }
 
-.notes-section .all-notes .note {
+.notes-section .all-notes .note-box {
     display: flex;
     align-items: center;
 } 
+
+.notes-section .all-notes .note-box .note {
+    margin: 0 10px;
+}
