@@ -1,0 +1,6 @@
+.container{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}

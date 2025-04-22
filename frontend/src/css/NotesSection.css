@@ -1,0 +1,22 @@
+.notes-section {
+    display: flex;
+    padding: 5vw;
+    flex-direction: column;
+}
+
+.notes-section .tittle {
+    background-color: tomato;
+    padding: 1vw 3vw;
+    margin: 0 auto ;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.notes-section .all-notes {
+    display: flex;
+}
+
+.notes-section .all-notes .note {
+    display: flex;
+    align-items: center;
+} 
